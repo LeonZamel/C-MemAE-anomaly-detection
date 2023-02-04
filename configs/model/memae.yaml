@@ -1,0 +1,6 @@
+defaults:
+  - base_model
+
+entropy_loss_weight: 0.0002
+shrink_threshold: 0.0025
+cosine_similarity: true

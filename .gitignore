@@ -1,0 +1,14 @@
+*__pycache__
+*.gz
+*.ipynb_checkpoints
+*.ckpt
+.vscode
+*.pdf
+*.tex
+
+# We supply some test data, but not the datasets which are downloaded by pytorch
+data/*
+!data/supplied
+
+lightning_logs
+logs

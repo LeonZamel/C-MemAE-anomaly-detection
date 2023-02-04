@@ -1,0 +1,2 @@
+# @package model
+model_type: "mnist-ae-flat"

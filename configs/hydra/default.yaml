@@ -1,0 +1,6 @@
+run:
+  dir: logs/${datamodule.name}/${model.model_type}/conditional=${conditional}/${now:%Y-%m-%d}/${now:%H-%M-%S}
+
+sweep:
+  dir: logs/${datamodule.name}/${model.model_type}/conditional=${conditional}/multiruns/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  subdir: seed=${seed}/${hydra.job.num}
